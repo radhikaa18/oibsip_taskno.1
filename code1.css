@@ -1,0 +1,88 @@
+/* Reset some default browser styles */
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #140202;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the hero section */
+.hero {
+    background-image: url('https://th.bing.com/th/id/R.752623010a2d14ce61864043785ab705?rik=wD3xnwHHoxOgWw&riu=http%3a%2f%2fwww.itrusoft.com%2fassets%2fimg%2fbus-img.jpg&ehk=TQrru8eOb5l0ZGlHivMcWYsAugvQfY1xZ1l%2bjMbAqSo%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    text-align: center;
+    font-size: larger;
+    padding: 200px 0;
+    color: #041052;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff8800;
+}
+
+
+/* Style the newsletter section */
+.newsletter {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.newsletter input[type="email"],
+.newsletter button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
